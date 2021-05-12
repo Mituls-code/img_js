@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+section #mainimage {
+    width: 80%;
+    height: 400px;
+    box-shadow: 0 0 10px 1px black;
+}
